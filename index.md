@@ -19,3 +19,4 @@
 19. [Выпуск 19. Англосаксы](https://us10.campaign-archive.com/?u=ff4a009ba1f59d865f0301f85&id=0ca4291d92)
 20. [Выпуск 20. Русская душа](https://us10.campaign-archive.com/?u=ff4a009ba1f59d865f0301f85&id=697050df31)
 21. [#21. Все не так однозначно (можно ли доверять своим убеждениям?)](https://us10.campaign-archive.com/?u=ff4a009ba1f59d865f0301f85&id=1827a9760d)
+22. [#22. Переписывание истории. Как узнать, что было на самом деле?](https://us10.campaign-archive.com/?u=ff4a009ba1f59d865f0301f85&id=4f454d57e2)
