@@ -11,7 +11,7 @@
 11. [Выпуск 11. Можем повторить](https://us10.campaign-archive.com/?u=ff4a009ba1f59d865f0301f85&id=9f3421dca4)
 12. [Выпуск 12. Чей Донбасс?](https://us10.campaign-archive.com/?u=ff4a009ba1f59d865f0301f85&id=78eaa4b398)
 13. [Выпуск 13. Традиционные ценности](https://us10.campaign-archive.com/?u=ff4a009ba1f59d865f0301f85&id=d4438eb6c2)
-14. [Выпуск 14. *** *****](https://us10.campaign-archive.com/?u=ff4a009ba1f59d865f0301f85&id=5c2b496925)
+14. [Выпуск 14. \*\*\* \*\*\*\*\*](https://us10.campaign-archive.com/?u=ff4a009ba1f59d865f0301f85&id=5c2b496925)
 15. [Выпуск 15. Живой щит](https://us10.campaign-archive.com/?u=ff4a009ba1f59d865f0301f85&id=327d9b75f5)
 16. [Выпуск 16. Патриотизм](https://us10.campaign-archive.com/?u=ff4a009ba1f59d865f0301f85&id=b2b73e9836)
 17. [Выпуск 17. Деколонизация Украины](https://us10.campaign-archive.com/?u=ff4a009ba1f59d865f0301f85&id=02603ef02c)
