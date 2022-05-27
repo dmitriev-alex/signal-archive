@@ -22,3 +22,4 @@
 22. [#22. Переписывание истории. Как узнать, что было на самом деле?](https://us10.campaign-archive.com/?u=ff4a009ba1f59d865f0301f85&id=4f454d57e2)
 23. [#23. Дискредитация. Можно ли наказывать за слова?](https://us10.campaign-archive.com/?u=ff4a009ba1f59d865f0301f85&id=83c26ba785)
 24. [#24. Либералы. Как это слово стало ругательным?](https://us10.campaign-archive.com/?u=ff4a009ba1f59d865f0301f85&id=d7b32d1ced)
+25. [#25. Двойные стандарты. Почему Косово — это правда другое](https://us10.campaign-archive.com/?u=ff4a009ba1f59d865f0301f85&id=a8ca502ad2)
