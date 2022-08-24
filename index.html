@@ -4,7 +4,11 @@ layout: default
 <ul style="list-style-type:none;padding:0;margin:0;">
   {% for link in site.data.links %}
     <li>
+      {% if link.id == "none" %}
+      {{ link.title }}
+      {% else %}
       <a href="https://us10.campaign-archive.com/?u=ff4a009ba1f59d865f0301f85&amp;id={{ link.id }}" target="_blank">{{ link.title }}</a>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
