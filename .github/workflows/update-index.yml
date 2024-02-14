@@ -18,9 +18,10 @@ jobs:
           curl imaps://imap.gmail.com:993/signal-archive -u "$CREDENTIALS" -X "FETCH 1:* BODY[HEADER.FIELDS (SUBJECT X-Campaign)]" -D headers.txt
           python repo/_scripts/convert.py
           cp links.csv repo/_data/
+          cd repo
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add repo/_data/links.csv
+          git add _data/links.csv
           git commit -m "Update links.csv"
           git push
     
