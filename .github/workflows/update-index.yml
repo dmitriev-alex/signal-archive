@@ -1,19 +1,28 @@
 name: update-index
 on:
   workflow_dispatch:
-    inputs:
-      credentials:
-        required: true
-        type: string
 
 jobs:
   update-index:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          path: repo
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10' 
-      - run: python my_script.py
+      - env:
+          CREDENTIALS: ${{ secrets.credentials }}
+        run: |
+          curl imaps://imap.gmail.com:993/signal-archive -u "$CREDENTIALS" -X "FETCH 1:* BODY[HEADER.FIELDS (SUBJECT X-Campaign)]" -D headers.txt
+          python repo/_scripts/convert.py
+          cp links.csv repo/_data/
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add repo/_data/links.csv
+          git commit -m "Update links.csv"
+          git push
+    
       
   
