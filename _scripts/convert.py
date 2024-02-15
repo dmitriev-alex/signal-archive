@@ -1,3 +1,5 @@
+from datetime import datetime
+
 def convert(enc):
     buf = bytearray()
     idx = 10
@@ -15,16 +17,17 @@ def convert(enc):
     return str(buf, "utf-8")
         
     
-lines = list()
+lines = {}
 with open("headers.txt", "r") as f:
     s = f.readline()
     while s:
         if s[:9] == "Subject: ":
-            s2 = f.readline()
-            line = "\"" + convert(s[9:]) + "\"," + s2[47:57] + "\n"
-            lines.append(line)
+            sdate = f.readline()
+            date = datetime.strptime(sdate[6:31], "%a, %d %b %Y %H:%M:%S")
+            scmp = f.readline()
+            line = "\"" + convert(s[9:]) + "\"," + scmp[47:57] + "\n"
+            lines[date] = line
         s = f.readline()
 
 with open("links.csv", "w") as f:
-    f.writelines("title,id\n")
-    f.writelines(reversed(lines))
+    f.writelines([i[1] for i in sorted(lines.items())])
