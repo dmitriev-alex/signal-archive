@@ -30,5 +30,5 @@ with open("headers.txt", "r") as f:
         s = f.readline()
 
 with open("links.csv", "w") as f:
-    f.writelines("title,id")
+    f.writelines("title,id\n")
     f.writelines([i[1] for i in sorted(lines.items())])
